@@ -1,6 +1,7 @@
 # Next.js
 .next
 out
+note.md
 
 # Tailwind CSS
 node_modules
