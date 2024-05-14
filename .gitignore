@@ -1,0 +1,30 @@
+# Next.js
+.next
+out
+
+# Tailwind CSS
+node_modules
+
+# WordPress
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/backup-db/
+/wp-content/backup-db/*
+/wp-content/cache/
+/wp-content/et-cache/
+/wp-content/w3tc/
+/wp-content/plugins/hello.php
+
+# Ignorera konfigurationsfiler för lokala utvecklingsmiljöer
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# MacOS specifika filer
+.DS_Store
+
+# NPM
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
